@@ -1,3 +1,0 @@
-C:/Users/Bedir/CLionProjects/DataStructure_In_C/Queue/Queue (Arr-based)/cmake-build-debug/CMakeFiles/untitled1.dir
-C:/Users/Bedir/CLionProjects/DataStructure_In_C/Queue/Queue (Arr-based)/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Bedir/CLionProjects/DataStructure_In_C/Queue/Queue (Arr-based)/cmake-build-debug/CMakeFiles/rebuild_cache.dir

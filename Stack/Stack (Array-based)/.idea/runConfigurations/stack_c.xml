@@ -1,8 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="stack.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Stack" TARGET_NAME="stack.c" CONFIG_NAME="stack.c">
-    <option name="sourceFile" value="C:\Users\Bedir\CLionProjects\DataStructure (C)\Stack\stack.c" />
-    <method v="2">
-      <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-    </method>
-  </configuration>
-</component>

@@ -1,0 +1,3 @@
+C:/Users/Bedir/CLionProjects/DataStructure_In_C/Stack/cmake-build-debug/CMakeFiles/Stack.dir
+C:/Users/Bedir/CLionProjects/DataStructure_In_C/Stack/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Bedir/CLionProjects/DataStructure_In_C/Stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
