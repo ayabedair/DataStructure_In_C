@@ -3,6 +3,7 @@
 //
 
 #include "../Global.h"
+#include <stdbool.h>
 #define LINKED_LIST
 
 #ifdef LINKED_LIST

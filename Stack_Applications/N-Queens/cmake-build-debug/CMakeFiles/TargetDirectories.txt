@@ -1,3 +1,0 @@
-C:/Users/Bedir/CLionProjects/DataStructure_In_C/Stack/Stack_Applications/N-Queens/cmake-build-debug/CMakeFiles/N_Queens.dir
-C:/Users/Bedir/CLionProjects/DataStructure_In_C/Stack/Stack_Applications/N-Queens/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Bedir/CLionProjects/DataStructure_In_C/Stack/Stack_Applications/N-Queens/cmake-build-debug/CMakeFiles/rebuild_cache.dir

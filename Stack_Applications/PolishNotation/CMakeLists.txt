@@ -3,9 +3,4 @@ project(PolishNotation C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(PolishNotation polishNotation.c stack.c)
-
-
-
-
-
+add_executable(PolishNotation main.c stack.c stack.h Global.h)

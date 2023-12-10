@@ -1,5 +1,15 @@
 # ninja log v5
-2	677	7180102619987986	CMakeFiles/untitled.dir/main.c.obj	23b9675b2a294dd9
-1129	2031	7180102633468659	untitled.exe	638bfe65e01ebf3b
-72	1128	7180102624502783	CMakeFiles/untitled.dir/stack_LinkList.c.obj	eca2727c24aaa335
-11	557	7180106011696978	build.ninja	722e0fba5b7e5d53
+1	949	7214426366557380	CMakeFiles/PolishNotation.dir/main.c.obj	50a597e978f93996
+99	1451	7214426371589090	CMakeFiles/PolishNotation.dir/stack.c.obj	6c21c4387df4ba12
+1451	2599	7214426383014482	PolishNotation.exe	7f8369bf807aec02
+15	511	7214465599964872	CMakeFiles/PolishNotation.dir/main.c.obj	50a597e978f93996
+85	721	7214465602079433	CMakeFiles/PolishNotation.dir/stack.c.obj	6c21c4387df4ba12
+722	1427	7214465609088023	PolishNotation.exe	7f8369bf807aec02
+3	1216	7214522089572594	CMakeFiles/PolishNotation.dir/main.c.obj	50a597e978f93996
+120	1785	7214522095284554	CMakeFiles/PolishNotation.dir/stack.c.obj	6c21c4387df4ba12
+1787	3139	7214522108772798	PolishNotation.exe	7f8369bf807aec02
+5	826	7214522392171114	CMakeFiles/PolishNotation.dir/main.c.obj	50a597e978f93996
+100	1333	7214522397243062	CMakeFiles/PolishNotation.dir/stack.c.obj	6c21c4387df4ba12
+1333	2567	7214522409551492	PolishNotation.exe	7f8369bf807aec02
+4	865	7214523041709717	CMakeFiles/PolishNotation.dir/main.c.obj	50a597e978f93996
+865	2074	7214523053739880	PolishNotation.exe	7f8369bf807aec02

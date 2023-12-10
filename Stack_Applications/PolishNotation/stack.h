@@ -1,19 +1,16 @@
 //
-// Created by Aya Bedair on 24/09/2023.
+// Created by Bedir on 08/10/2023.
 //
+#include <stdbool.h>
+#include "Global.h"
 
-/**choose the operation to be applied*/
-//#define INFIX_TO_POSTFIX
-#define EVALUATE_POSTFIX
+#define LINKED_STACK
 
-#ifdef INFIX_TO_POSTFIX
-    #define StackEntry   char
-#endif
+#ifdef LINKED_STACK
 
-#ifdef EVALUATE_POSTFIX
-    #define StackEntry   double
-#endif
-
+/*********************************************************************************/
+/****************************** Linked implementation*****************************/
+/*********************************************************************************/
 
 typedef struct stacknode
 {
@@ -28,12 +25,29 @@ typedef struct stack
     int size;
 }Stack;
 
-void IntializeStack(Stack *ps);
-int Push(StackEntry element, Stack *ps);
-void Pop(StackEntry *element, Stack *ps);
-void StackTop(StackEntry *element, Stack *ps);
-bool StackEmpty(Stack *ps);
-bool StackFull(Stack *ps);
-void ClearStack(Stack *ps);
-void TraverseStack(Stack *ps, void (*function)(StackEntry element));
-int StackSize(Stack *ps);
+#else
+
+/*********************************************************************************/
+/****************************** Array-based implementation************************/
+/*********************************************************************************/
+
+typedef struct stack{
+    int top; //refers to the top element(last in)
+    /*
+     * StackEntry refers to the type of elements in the stack (user level)
+     * entry is the stack itself
+     * MAXSTACK max number of elements (user level)
+     */
+    StackEntry entry[MAXSTACK];
+}Stack;
+
+#endif
+
+void IntializeStack(Stack *);
+int Push(StackEntry element, Stack *);
+void Pop(StackEntry *, Stack *);
+bool StackFull(Stack *);
+bool StackEmpty(Stack *);
+void StackTop(StackEntry *, Stack *);
+int StackSize(Stack *);
+void TraverseStack(Stack *, void (*)(StackEntry));
