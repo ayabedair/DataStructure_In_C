@@ -97,7 +97,7 @@ int main() {
 //    }
 
     IntializeStack(&s);
-    char arr[] = "123*+";
+    char arr[] = "45*23$+";
     printf("%f", EvaluatePostfix(arr));
 
     return 0;
