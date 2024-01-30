@@ -4,7 +4,14 @@
 #include <stdbool.h>
 #include "Global.h"
 
-#define LINKED_STACK
+//#define MAXSTACK     100
+//#define EVALUATEPOSTFIX
+
+//#ifdef EVALUATEPOSTFIX
+//#define StackEntry   double
+//#else
+//#define StackEntry   char
+//#endif
 
 #ifdef LINKED_STACK
 
@@ -44,7 +51,7 @@ typedef struct stack{
 #endif
 
 void IntializeStack(Stack *);
-int Push(StackEntry element, Stack *);
+void Push(StackEntry element, Stack *);
 void Pop(StackEntry *, Stack *);
 bool StackFull(Stack *);
 bool StackEmpty(Stack *);
